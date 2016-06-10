@@ -70,7 +70,7 @@
       <div id="logo" class="clr">
         <?php if (theme_get_setting('image_logo','multipurpose')): ?>
         <?php if ($logo): ?><div id="site-logo"><a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>">
-          <img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" />
+          <img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" height="82" width="398" />
         </a></div><?php endif; ?>
         <?php else: ?>
         <h2 id="site-name">
