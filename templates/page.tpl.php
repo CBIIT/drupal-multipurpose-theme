@@ -65,12 +65,18 @@
  */
 ?>
 <div id="wrap" class="clr container">
+<div align="right">
+<a href="/glossary" title="Glossary">Glossary</a>&nbsp;&nbsp;
+<a href="/" title="News">News</a>&nbsp;&nbsp;
+<a href="/" title="Events">Events</a>&nbsp;&nbsp;
+<a href="/" title="Contact Us">Contact Us</a>
+</div> 
   <div id="header-wrap" class="clr fixed-header">
     <header id="header" class="site-header clr">
       <div id="logo" class="clr">
         <?php if (theme_get_setting('image_logo','multipurpose')): ?>
         <?php if ($logo): ?><div id="site-logo"><a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>">
-          <img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" height="82" width="398" />
+          <img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" />
         </a></div><?php endif; ?>
         <?php else: ?>
         <h2 id="site-name">

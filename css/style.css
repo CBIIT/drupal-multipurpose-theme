@@ -330,13 +330,15 @@ a { outline: 0 }
 /* Header
 ================================================== */
 /*header*/
-#header { text-align: left; padding: 20px 0; position: relative; }
+/*header*/
+#header { text-align: left; padding: 20px 0; position: relative;    background-image:url("/sites/default/files/header-bg.jpg"); }
 /*logo*/
+#site-logo {width: 40%;}
 #logo img { display: block; max-width: 100%; height: auto;}
 #logo a { color: #bb0e3d; font-size: 16pt; text-decoration: none; font-family: 'Montserrat', sans-serif;}
 #site-slogan { color: #606060; font-size: 20pt; font-family: 'Montserrat', sans-serif;}
 /*search*/
-#search_box { position: absolute; top: 40%; margin-top: -20px; right: 0; height: 80px; float: right; }
+#search_box { position: absolute; top: 50%; margin-top: -20px; right: 0; height: 80px; float: right; }
 #header-social { position: absolute; top: 50%; margin-top: -20px; right: 0; height: 40px; width: 210px; }
 #header-social li {
   float: left;
@@ -777,12 +779,12 @@ input[type="button"].full-width {
 width: 100%; padding-left: 0 !important; padding-right: 0 !important; text-align: center; }
 
 
-#block-search-form { padding-bottom: 1.3em; }
+#block-search-form { padding-bottom: 7px; }
 
 #block-search-form .content { margin-top: 0; }
 
 #search-form input#edit-keys,
-#block-search-form .form-item-search-block-form input { float: left; font-size: 1em; height: 1.143em; margin-right: 5px; width: 9em; }
+#block-search-form .form-item-search-block-form input { float: left; font-size: 1em; height: 1.143em; margin-right: 5px; width: 11em; }
 
 #search-block-form input.form-submit,
 #search-form input.form-submit { margin-left: 0; margin-right: 0; height: 25px; width: 34px; padding: 0; cursor: pointer;
