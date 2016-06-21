@@ -64,10 +64,18 @@
  * @see template_process()
  */
 ?>
+
 <div id="wrap" class="clr container">
+<div align="right">
+<a href="http://emice.nci.nih.gov/glossary" title="Glossary">Glossary</a>&nbsp
+<a href="http://emice.nci.nih.gov/news" title="News">News</a>&nbsp
+<a href="http://emice.nci.nih.gov/events" title="Events">Events</a>&nbsp;&nbsp;
+<a href="http://emice.nci.nih.gov/samr" title="Support for Animal Model Research">Support for Animal Model Research</a>
+</div> 
   <div id="header-wrap" class="clr fixed-header">
     <header id="header" class="site-header clr">
       <div id="logo" class="clr">
+	  
         <?php if (theme_get_setting('image_logo','multipurpose')): ?>
         <?php if ($logo): ?><div id="site-logo"><a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>">
           <img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" />
