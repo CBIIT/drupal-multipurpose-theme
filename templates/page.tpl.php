@@ -128,7 +128,7 @@
   </div>
 
   <div id="sidr-close"><a href="#sidr-close" class="toggle-sidr-close"></a></div>
-  <div id="site-navigation-wrap">
+  <!---<div id="site-navigation-wrap">
     <a href="#sidr-main" id="navigation-toggle"><span class="fa fa-bars"></span>Menu</a>
     <nav id="site-navigation" class="navigation main-navigation clr" role="navigation">
       <div id="main-menu" class="menu-main-container">
@@ -138,7 +138,7 @@
         ?>
       </div>
     </nav>
-  </div>
+  </div>-->
   <a id="main-content" name="main-content"></a>
   
   <?php if ($is_front): ?>
