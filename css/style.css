@@ -336,7 +336,8 @@ a { outline: 0 }
 #logo a { color: #bb0e3d; font-size: 16pt; text-decoration: none; font-family: 'Montserrat', sans-serif;}
 #site-slogan { color: #606060; font-size: 20pt; font-family: 'Montserrat', sans-serif;}
 /*search*/
-#search_box { position: absolute; top: 50%; margin-top: -20px; right: 0; height: 80px; float: right; }
+/* #search_box { position: absolute; top: 50%; margin-top: -20px; right: 0; height: 80px; float: right; } */
+#search_box { position: absolute; top: 50%; margin-top: -20px; right: 0; height: 80px; float: left; }
 #header-social { position: absolute; top: 50%; margin-top: -20px; right: 0; height: 40px; width: 210px; }
 #header-social li {
   float: left;
@@ -786,7 +787,7 @@ width: 100%; padding-left: 0 !important; padding-right: 0 !important; text-align
 #block-search-form .form-item-search-block-form input { float: left; font-size: 1em; height: 1.143em; margin-right: 5px; width: 11em; }
 
 #search-block-form input.form-submit,
-#search-form input.form-submit { margin-left: 0; margin-right: 0; height: 25px; width: 34px; padding: 0; cursor: pointer;
+#search-form input.form-submit { margin-left: 0; margin-right: 10; height: 25px; width: 34px; padding: 0; cursor: pointer;
 text-indent: -9999px; border-color: #e4e4e4 #d2d2d2 #b4b4b4; background: url(../images/search-button.png) no-repeat center top; overflow: hidden; }
 
 #search-block-form input.form-submit:hover,

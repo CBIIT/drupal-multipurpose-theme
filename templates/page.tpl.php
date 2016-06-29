@@ -67,10 +67,10 @@
 
 <div id="wrap" class="clr container">
 <div align="right">
-<a href="http://emice.nci.nih.gov/glossary" title="Glossary">Glossary</a>&nbsp
-<a href="http://emice.nci.nih.gov/news" title="News">News</a>&nbsp
-<a href="http://emice.nci.nih.gov/events" title="Events">Events</a>&nbsp;&nbsp;
-<a href="http://emice.nci.nih.gov/samr" title="Support for Animal Model Research">Support for Animal Model Research</a>
+<a href="glossary" title="Glossary">Glossary</a>&nbsp
+<a href="/news" title="News">News</a>&nbsp
+<a href="/events" title="Events">Events</a>&nbsp;&nbsp;
+<a href="/SAMR" title="Support for Animal Model Research">Support for Animal Model Research</a>
 </div> 
   <div id="header-wrap" class="clr fixed-header">
     <header id="header" class="site-header clr">
