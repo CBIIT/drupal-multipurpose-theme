@@ -67,8 +67,8 @@
 <div id="wrap" class="clr container">
 <div align="right">
 <a href="/glossary" title="Glossary">Glossary</a>&nbsp;&nbsp;
-<a href="/" title="News">News</a>&nbsp;&nbsp;
-<a href="/" title="Events">Events</a>&nbsp;&nbsp;
+<a href="/news-folder" title="News">News</a>&nbsp;&nbsp;
+<a href="/events" title="Events">Events</a>&nbsp;&nbsp;
 <a href="/" title="Contact Us">Contact Us</a>
 </div> 
   <div id="header-wrap" class="clr fixed-header">
