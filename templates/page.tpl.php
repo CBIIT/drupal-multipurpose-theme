@@ -67,7 +67,7 @@
 
 <div id="wrap" class="clr container">
 <div align="right">
-<a href="glossary" title="Glossary">Glossary</a>&nbsp
+<a href="/glossary" title="Glossary">Glossary</a>&nbsp
 <a href="/news" title="News">News</a>&nbsp
 <a href="/events" title="Events">Events</a>&nbsp;&nbsp;
 <a href="/SAMR" title="Support for Animal Model Research">Support for Animal Model Research</a>
