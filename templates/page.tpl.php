@@ -70,7 +70,7 @@
 <a href="/glossary" title="Glossary">Glossary</a>&nbsp
 <a href="/news" title="News">News</a>&nbsp
 <a href="/events" title="Events">Events</a>&nbsp;&nbsp;
-<a href="/SAMR" title="Support for Animal Model Research">Support for Animal Model Research</a>
+<a href="/samr" title="Support for Animal Model Research">Support for Animal Model Research</a>
 </div> 
   <div id="header-wrap" class="clr fixed-header">
     <header id="header" class="site-header clr">
