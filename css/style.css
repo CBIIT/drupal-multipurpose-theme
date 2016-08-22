@@ -385,10 +385,13 @@ a { outline: 0 }
   background: linear-gradient(to bottom, rgba(242,242,242,1) 0%, rgba(232,232,232,1) 47%, rgba(224,224,224,1) 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f2f2', endColorstr='#e0e0e0', GradientType=0 );
 
-  margin: 0 0 2em; height: 55px; 
-}
-#site-navigation #main-menu > ul li { display: block; float: left; height: 55px; line-height: 55px; min-width: 15.99999999%}
-#site-navigation #main-menu > ul a { color: #07486e; font-weight: bold; text-decoration: none; text-align: center; cursor: pointer; padding: 0 1.75em; }
+  margin: 0 0 2em; height: 55px; }
+
+
+
+#site-navigation #main-menu > ul li { display: block; float: left; height: 55px; line-height: 55px; min-width: 10%}
+#site-navigation #main-menu > ul li:not(:last-child) {border-right:solid 1px #c5c3c3;}
+#site-navigation #main-menu > ul a { color: #07486e; font-weight: bold; text-decoration: none; text-align: center; cursor: pointer; padding: 0 8px; font-family:Arial; font-size:13px;}
 #site-navigation #main-menu > ul > li > a:hover,
 #site-navigation #main-menu > ul > li.sfHover > a,
 #site-navigation #main-menu > ul > li > a.active,
