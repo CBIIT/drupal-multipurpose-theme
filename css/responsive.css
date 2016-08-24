@@ -29,6 +29,7 @@ a#navigation-toggle .fa { margin-right: 10px; }
 	.wrap { width: 85%; max-width: 1000px}
 	a#navigation-toggle { display: block; }
 	#site-navigation #main-menu > ul { display: none; }
+}
    
 span.ext {
     background: rgba(0, 0, 0, 0) url(/sites/all/modules/contrib/extlink/extlink_s.png) no-repeat scroll 2px center;
@@ -47,9 +48,7 @@ span.ext {
 	.wrap { width: 85%; }
 	.left-content { width: 60%; }
 	.sidebar-container { width: 36%; }
-	.owl-carousel .item .field-name-field-rotator-slide-logo {
-		display: block;
-	}
+	.owl-carousel .item .field-name-field-rotator-slide-logo { display: block;}
 }
 
 /* Tablet (Portrait)
@@ -102,31 +101,14 @@ span.ext {
    #panel-display panel-2col-bricks {display: inline-block; width: 45%;}
    #demo {display: none;}
    #corner {display: none;}
-   .element-invisible {
-	    clip: rect(1px, 1px, 1px, 1px);
-	    height: 1px;
-	    overflow: hidden;
-	    position: absolute !important;
-	}
+   .element-invisible {clip: rect(1px, 1px, 1px, 1px); height: 1px; overflow: hidden; position: absolute !important; }
    .pane-homepage-carousel .pane-content { min-height: auto;}
-
-   .panels-flexible-column-first {
-	  width: 100%;
-
-	}
-	.panels-flexible-column-last {
-	  width: 100%;
-	}
-	.field .field-label {
-		font-weight: bold;	
-	}
-	.form-item label {
-		clear: both;
-	    display: block;
-	    float: none;
-	}
-
+   .panels-flexible-column-first { width: 100%;}
+	.panels-flexible-column-last {width: 100%;}
+	.field .field-label {font-weight: bold; }
+	.form-item label {clear: both; display: block; float: none; }
 }
+
 /* Mobile (Landscape)
 ================================================== */
 @media only screen and (min-width: 480px) and (max-width: 767px) {
@@ -134,7 +116,6 @@ span.ext {
 	.sidr.right { right: -480px; }
 	#site-navigation-wrap {margin: 0 -8% 20px;}
 }
-
 
 
 
