@@ -330,10 +330,8 @@ a { outline: 0 }
 /* Header
 ================================================== */
 /*header*/
-/*header*/
-#header { text-align: left; padding: 20px 0; position: relative;    background-image:url("/sites/default/files/header-bg.jpg"); }
+#header { text-align: left; padding: 20px 0; position: relative; }
 /*logo*/
-#site-logo {width: 40%;}
 #logo img { display: block; max-width: 100%; height: auto;}
 #logo a { color: #bb0e3d; font-size: 16pt; text-decoration: none; font-family: 'Montserrat', sans-serif;}
 #site-slogan { color: #606060; font-size: 20pt; font-family: 'Montserrat', sans-serif;}
@@ -387,10 +385,13 @@ a { outline: 0 }
   background: linear-gradient(to bottom, rgba(242,242,242,1) 0%, rgba(232,232,232,1) 47%, rgba(224,224,224,1) 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f2f2', endColorstr='#e0e0e0', GradientType=0 );
 
-  margin: 0 0 2em; height: 55px; 
-}
-#site-navigation #main-menu > ul li { display: block; float: left; height: 55px; line-height: 55px; min-width: 15.99999999%}
-#site-navigation #main-menu > ul a { color: #07486e; font-weight: bold; text-decoration: none; text-align: center; cursor: pointer; padding: 0 1.75em; }
+  margin: 0 0 2em; height: 55px; }
+
+
+
+#site-navigation #main-menu > ul li { display: block; float: left; height: 55px; line-height: 55px; min-width: 10%}
+#site-navigation #main-menu > ul li:not(:last-child) {border-right:solid 1px #c5c3c3;}
+#site-navigation #main-menu > ul a { color: #07486e; font-weight: bold; text-decoration: none; text-align: center; cursor: pointer; padding: 0 8px; font-family:Arial; font-size:13px;}
 #site-navigation #main-menu > ul > li > a:hover,
 #site-navigation #main-menu > ul > li.sfHover > a,
 #site-navigation #main-menu > ul > li > a.active,
@@ -784,7 +785,7 @@ width: 100%; padding-left: 0 !important; padding-right: 0 !important; text-align
 #block-search-form .content { margin-top: 0; }
 
 #search-form input#edit-keys,
-#block-search-form .form-item-search-block-form input { float: left; font-size: 1em; height: 1.143em; margin-right: 5px; width: 11em; }
+#block-search-form .form-item-search-block-form input { float: left; font-size: 1em; height: 1.143em; margin-right: 5px; width: 9em; }
 
 #search-block-form input.form-submit,
 #search-form input.form-submit { margin-left: 0; margin-right: 0; height: 25px; width: 34px; padding: 0; cursor: pointer;
