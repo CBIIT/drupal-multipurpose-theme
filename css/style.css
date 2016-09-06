@@ -332,7 +332,7 @@ a { outline: 0 }
 /*header*/
 #header { text-align: left; padding: 20px 0; position: relative; }
 /*logo*/
-#logo img { display: block; max-width: 100%; height: auto;}
+#logo img {display: block;max-width: 100%;height: auto; min-width: 320px;}
 #logo a { color: #bb0e3d; font-size: 16pt; text-decoration: none; font-family: 'Montserrat', sans-serif;}
 #site-slogan { color: #606060; font-size: 20pt; font-family: 'Montserrat', sans-serif;}
 /*search*/
