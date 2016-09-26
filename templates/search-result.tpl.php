@@ -65,7 +65,6 @@
  */
 ?>
 <li class="<?php print $classes; ?>"<?php print $attributes; ?>>
-dpm(get_defined_vars);
   <?php print render($title_prefix); ?>
   <h3 class="title"<?php print $title_attributes; ?>>
     <a href="<?php print $url; ?>"><?php print $title; ?></a>
