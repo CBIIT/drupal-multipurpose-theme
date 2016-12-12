@@ -1,5 +1,85 @@
-/* Custom CSS */
+h1.page-title {display: none;}
 
+#mnhomepage {
+	background-image: url("/sites/nci-metastatic-niche/files/bg-image.jpg");
+	background-color: #fff;
+	max-width: 100%;
+	height: 493px;
+	}
+
+#mnhomepage .button {
+    border-radius: 5px;
+    background: #ba1f40;
+    width: 212px;
+    height: 40px; 
+	margin-top: 20px;
+	margin-left: 30px;
+}
+
+#mnhomepage .button p {
+	font-family: arial;
+	font-weight: normal;
+	font-size: 10pt;
+	color: #fff;
+	padding-top: 10px;
+	padding-left: 55px;}
+
+#mnhomepage .button p a{
+	font-family: arial;
+	font-weight: normal;
+	font-size: 10pt;
+	color: #fff;
+	text-decoration: none;
+	}
+
+#mnhomepage p {
+	font-family: arial;
+	font-weight: strong;
+	font-size: 10pt;
+	color: #fff;
+	padding-top: 20px; padding-left: 30px;
+	width: 80%;
+	line-height: 90%;
+	margin: 0;
+}
+	
+
+#mnhomepage h1 {
+	font-family: arial;
+	font-weight: black;
+	font-size: 35pt;
+	color: #fff;
+	padding-top: 20px; padding-left: 30px; margin-bottom: 0px;}
+
+#mnhomepage h2 {
+	font-family: arial;
+	font-weight: strong;
+	font-size: 20pt;
+	color: #fff;
+	padding-top: 0px; padding-left: 30px;}
+
+#mnhomepage h3 {
+	font-family: arial;
+	font-weight: strong;
+	font-size: 14pt;
+	color: #46eafd;
+	padding-top: 5px; padding-left: 30px;}
+
+#mndate h5 {
+	font-family: arial;
+	font-weight: bold;
+	font-size: 12pt;
+	color: #074871;
+	}
+
+/* Custom CSS */
+#search_box .menu li {
+    float: right;
+    font-size: 0.9em;
+    list-style: outside none none;
+    margin-left: 0;
+    margin-right: 2em;
+}
 
 #skip-link {
     left: 50%;
@@ -332,7 +412,11 @@ a { outline: 0 }
 /*header*/
 #header { text-align: left; padding: 20px 0; position: relative; }
 /*logo*/
-#logo img { display: block; max-width: 100%; height: auto;}
+#logo img {
+    display: block;
+    height: 54px;
+    max-width: 390px;
+}
 #logo a { color: #bb0e3d; font-size: 16pt; text-decoration: none; font-family: 'Montserrat', sans-serif;}
 #site-slogan { color: #606060; font-size: 20pt; font-family: 'Montserrat', sans-serif;}
 /*search*/
