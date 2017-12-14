@@ -414,7 +414,7 @@ a { outline: 0 }
 /*logo*/
 #logo img {
     display: block;
-    height: 54px;
+    height: auto;
     max-width: 390px;
 }
 #logo a { color: #bb0e3d; font-size: 16pt; text-decoration: none; font-family: 'Montserrat', sans-serif;}
@@ -1221,6 +1221,68 @@ border-left: 1px solid; border-right: 1px solid; height: 40px; margin-left: -36p
 
 #forum .name a{ 
   font-size: 16px;
+}
+
+
+table.registration_table td { 
+border-top: 1px solid #ddd;
+border-right: 1px solid #ddd;
+border-left: 1px solid #ddd;
+border-bottom: 1px solid #ddd;
+ }
+
+table.homepage_table td { 
+border-top: 1px solid black;
+border-right: 1px solid black;
+border-left: 1px solid black;
+border-bottom: 1px solid black;
+ }
+
+table.homepage_table hr{
+ border: solid black; 
+ border-width: 1px 0 0; 
+ clear: both;
+ height: 0;
+ margin: 10px -10px; 
+}
+
+h1.h1_home {
+  font-size: 1.714em;
+  margin: 0 0 0px;
+}
+
+p.p_home{
+	margin: 0 0 0px;
+}
+
+table.homepage_table p {
+	margin: 0 0 0px;
+}
+
+#myhomepage .button {
+    border-radius: 5px;
+    background: grey;
+    width: 212px;
+    height: 40px; 
+	margin-top: 20px;
+	margin-left: 0px;
+}
+
+#myhomepage .button p {
+	font-family: arial;
+	font-weight: normal;
+	font-size: 10pt;
+	color: #fff;
+	padding-top: 10px;
+	padding-left: 55px;
+}
+
+#myhomepage .button p a{
+	font-family: arial;
+	font-weight: normal;
+	font-size: 10pt;
+	color: #fff;
+	text-decoration: none;
 }
 
 /* Font Awesome 4.0.3 by @davegandy - http://fontawesome.io - @fontawesome
