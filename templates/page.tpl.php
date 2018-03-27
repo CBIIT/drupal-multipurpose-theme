@@ -64,10 +64,12 @@
  * @see template_process()
  */
 ?>
+
 <div id="wrap" class="clr container">
   <div id="header-wrap" class="clr fixed-header">
     <header id="header" class="site-header clr">
       <div id="logo" class="clr">
+	  
         <?php if (theme_get_setting('image_logo','multipurpose')): ?>
         <?php if ($logo): ?><div id="site-logo"><a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>">
           <img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" />
