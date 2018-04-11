@@ -62,7 +62,7 @@ span.ext {
 
 /* Mobile (Portrait & Landscape)
 ================================================== */
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 1120px) {
 	#wrap { margin-top: 0; margin-bottom: 0; width: 90%; }
 	#site-navigation-wrap {margin: 0 -8% 20px;}
 	.sidebar-container,
