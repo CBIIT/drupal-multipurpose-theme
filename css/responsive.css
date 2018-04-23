@@ -26,18 +26,19 @@ a#navigation-toggle .fa { margin-right: 10px; }
 }
 
 @media only screen and (max-width: 959px) {
-	.wrap { width: 85%; max-width: 1000px}
-	a#navigation-toggle { display: block; }
-	#site-navigation #main-menu > ul { display: none; }
+    .wrap { width: 85%; max-width: 1000px}
+    a#navigation-toggle { display: block; }
+    #site-navigation #main-menu > ul { display: none; }
    
-span.ext {
-    background: rgba(0, 0, 0, 0) url(/sites/all/modules/contrib/extlink/extlink_s.png) no-repeat scroll 2px center;
-    display: inline-block;
-    height: 10px;
-    padding-right: 0;
-    text-indent: -99999px;
-    text-decoration: none;
-    width: 12px;
+    span.ext {
+        background: rgba(0, 0, 0, 0) url(/sites/all/modules/contrib/extlink/extlink_s.png) no-repeat scroll 2px center;
+        display: inline-block;
+        height: 10px;
+        padding-right: 0;
+        text-indent: -99999px;
+        text-decoration: none;
+        width: 12px;
+    }
 }
 
 
