@@ -1,0 +1,124 @@
+/* All Responsive
+================================================== */
+a#navigation-toggle { height: 55px; line-height: 55px; float: none; margin: 0; cursor: pointer; color: #000; padding-left: 35px; font-weight: 600; position: relative; z-index: 9; text-decoration: none !important; display: none; }
+a#navigation-toggle .fa { margin-right: 10px; }
+#navigation-toggle { color: #fff; }
+#navigation-toggle:hover { color: #000; }
+#sidr-main { position: absolute; position: fixed; top: 0; height: 100%; z-index: 999999; width: 320px; overflow-x: none; overflow-y: auto;font-size: 13px; background: #606a76; color: #fff; }
+#sidr-main { padding: 50px 30px 30px; box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; }
+.sidr.right { left: auto; right: -320px; }
+.sidr.left { left: -320px; right: auto; }
+#sidr-main a { color: #fff; }
+#sidr-main a:hover { color: #fff; }
+#sidr-main ul a { display: block; border-bottom: 1px solid #222; border-bottom: 1px solid rgba(255,255,255,0.15); padding: 8px 0; }
+#sidr-main ul li ul { margin-left: 0; margin: 0; }
+#sidr-main ul li ul li a { padding-left: 10px; }
+#sidr-main ul li ul li li a { padding-left: 20px; }
+#sidr-main ul li ul li li li a { padding-left: 30px; }
+#sidr-main ul li ul li a:before { content: '\f0da'; display: inline-block; -webkit-font-smoothing: antialiased; font-family: 'FontAwesome'; color: #333; margin-right: 10px; }
+.sidr-class-toggle-sidr-close:before { font-size: 16px; position: absolute; top: 15px; left: 30px; content: '\f00d'; font-family: 'FontAwesome'; color: #fff; margin: 0; }
+.pane-homepage-carousel .pane-block { display:block; min-height: 280px; height:auto; }
+.owl-carousel {
+	display: block !important;
+}
+.owl-carousel .item .field-name-field-rotator-slide-logo {
+	display: block;
+}
+
+@media only screen and (max-width: 959px) {
+	.wrap { width: 85%; max-width: 1000px}
+	a#navigation-toggle { display: block; }
+	#site-navigation #main-menu > ul { display: none; }
+}
+   
+span.ext {
+    background: rgba(0, 0, 0, 0) url(/sites/all/modules/contrib/extlink/extlink_s.png) no-repeat scroll 2px center;
+    display: inline-block;
+    height: 10px;
+    padding-right: 0;
+    text-indent: -99999px;
+    text-decoration: none;
+    width: 12px;
+}
+
+
+/* Tablet (Portrait)
+================================================== */
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+	.wrap { width: 85%; }
+	.left-content { width: 60%; }
+	.sidebar-container { width: 36%; }
+	.owl-carousel .item .field-name-field-rotator-slide-logo { display: block;}
+}
+
+/* Tablet (Portrait)
+================================================== */
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+	.wrap { width: 85%; }
+	.left-content { width: 60%; }
+	.sidebar-container { width: 36%; }
+}
+
+
+/* Mobile (Portrait & Landscape)
+================================================== */
+@media only screen and (max-width: 1120px) {
+	#wrap { margin-top: 0; margin-bottom: 0; width: 90%; }
+	#site-navigation-wrap {margin: 0 -8% 20px;}
+	.sidebar-container,
+	.left-content { width: 100%; }
+	.sidebar-container {margin-top: 40px; padding-top: 40px; border-top: 10px solid #eee; }
+	.col{ width: 100%; margin-left: 0; margin-bottom: 25px; }
+	#logo {float:left; width: 100%;}
+	#search_box { clear: both; position: relative; top: auto; height:auto; right: auto; margin-top: 25px; width: 100%;}
+	#search_box .form-item { margin-bottom: inherit; margin-top: inherit;}
+	#search_box .form-item input { width:80%;}
+	#search_box .form-actions { padding-top: inherit;}
+	#search_box p {margin-bottom: 0}
+
+	input#edit-search-block-form--2 {width: 260px; text-align: center;}
+   /* #search_box {display: none;} */
+   .resrem {display: none;}
+   #resrem {display: none;}
+
+   .panels-flexible-2 .panels-flexible-column-inside,
+   .panels-flexible-2 .panels-flexible-column-inside-first,
+   .panels-flexible-2 .panels-flexible-column-inside-last {padding-left: 0; padding-right: 0}
+   .pane-homepage-carousel .pane-block { display:block; min-height: inherit; height:auto; }
+   .owl-carousel .item header h2 { display:block; float: left; padding: 0 0 2px; width: 100%; font-size: 1.4em; max-height: 3.5em; line-height: 1.15em; overflow: hidden; text-overflow: ellipsis; font-weight: normal; position: relative;}
+   .owl-carousel .item .field-name-field-rotator-slide-logo { display: none;}
+   .owl-carousel .item .field-name-field-rotator-slide-picture {display:block; float:left; height: auto; margin:0 0 0.5em; width: 100%;}
+   .owl-carousel .item .field-name-field-rotator-slide-picture img { height:auto; max-width: 500px; margin-bottom: 0.5em;}
+   .owl-carousel .item .field-name-body,
+   .owl-carousel .item .field-name-field-rotator-slide-read-more {display:block; float:left; height: auto; position: relative; width: 100%; margin:0;}
+   .owl-carousel .item .field-name-field-rotator-slide-read-more {margin-bottom:1.5em;}
+   .region-footer { padding-top: 25px; width:100%; position: relative;}
+   .region-footer .block-menu { display:block; width:100%; float:left; }
+   .region-footer ul.menu { }
+   .region-footer ul.menu li {display:block; float:left; width: 95%; text-align: left; padding: 5px 2.5%; background: #eeeeee;}
+   .region-footer ul.menu li a {text-decoration: none; padding: 5px; color: #333; font-size: 12px;}
+   .region-footer .block-block {text-align: center; padding: 2.5%; color: #333; background: #eeeeee; width: 95%;}
+   #panel-display panel-2col-bricks {display: inline-block; width: 45%;}
+   #demo {display: none;}
+   #corner {display: none;}
+   .element-invisible {clip: rect(1px, 1px, 1px, 1px); height: 1px; overflow: hidden; position: absolute !important; }
+   .pane-homepage-carousel .pane-content { min-height: auto;}
+   .panels-flexible-column-first { width: 100%;}
+	.panels-flexible-column-last {width: 100%;}
+	.field .field-label {font-weight: bold; }
+	.form-item label {clear: both; display: block; float: none; }
+}
+
+/* Mobile (Landscape)
+================================================== */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	.sidr { width: 480px; }
+	.sidr.right { right: -480px; }
+	#site-navigation-wrap {margin: 0 -8% 20px;}
+}
+
+
+
+
+
+
