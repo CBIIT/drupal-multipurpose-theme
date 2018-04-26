@@ -1,5 +1,10 @@
 /* Custom CSS */
 
+/* to render admin toolbar when header tag is active */
+#admin-menu {
+    z-index: 10000;
+}
+
 table.plain {table-collapse: collapse;}
 table.plain td {border: 1px solid #ddd;}
 table.plain th {
@@ -102,7 +107,7 @@ table.listing td.draggable {
   font-size: 95%;
   margin: 5px;
   }
-  
+
 table.onthispage th {background-color: #0c5c97;}
 table.onthispage a {text-decoration: none!important;}
 
@@ -114,13 +119,13 @@ table.tableborder td {border: 1px solid #d7d7d7;}
     padding: 1em;
     border-left: 1em solid #ccc;
     clear: both;}
-    
+
 a.external-link.ext.extlink, a.ext.extlink {
   font-size: 100%;
-  } 
+  }
 
 
-  
+
 
 
 #skip-link {
@@ -150,8 +155,8 @@ a.external-link.ext.extlink, a.ext.extlink {
     position: absolute;
     text-decoration: none;
 }
-#skip-link a:hover, 
-#skip-link a:active, 
+#skip-link a:hover,
+#skip-link a:active,
 #skip-link a:focus,
 #skip-twitter-link a:hover,
 #skip-twitter-link a:active,
@@ -236,8 +241,8 @@ h4.pane-title {
   line-height: normal;
   font-weight: bold;
   color: #0c5c97;}
-  
-a.active-trail.active {color: #000; font-weight: bold;} 
+
+a.active-trail.active {color: #000; font-weight: bold;}
 .menu-level-2 {border: 1px solid #ddd; padding-right: 10px;}
 ul li.leaf, ul li.expanded, ul li.collapsed {list-style-image: none; list-style-type: none;}
 
@@ -250,7 +255,7 @@ h2.pane-title {margin-bottom: 10px;}
 }
 
 /* Table formatting for views */
-/* Green color scheme 
+/* Green color scheme
 th.views-field {background: #75AD0A; color: #efefef; font-weight: normal; text-transform: uppercase; font-size: 14px;}
 th.views-field.active {background: #608f08}
 th.views-field a {color: #fff;}
@@ -514,7 +519,7 @@ a { outline: 0 }
 #main-menu > ul li:hover > .sf-mega,
 #main-menu > ul li.sfHover > .sf-mega { display: block }
 /*styling*/
-#site-navigation-wrap { 
+#site-navigation-wrap {
 
   background: rgba(242,242,242,1);
   background: -moz-linear-gradient(top, rgba(242,242,242,1) 0%, rgba(232,232,232,1) 47%, rgba(224,224,224,1) 100%);
@@ -614,7 +619,7 @@ nav.breadcrumb {
   font-size: 85%;
   font-family: Arial, Helvetica, sans-serif;
   }
-  
+
 nav.breadcrumb a{
   font-size: 100%;
   font-family: Arial, Helvetica, sans-serif;
@@ -755,7 +760,7 @@ fieldset.collapsed { background: transparent; -khtml-border-radius: 0; -moz-bord
 
 fieldset legend { background: #dbdbdb; border: 1px solid #ccc; border-bottom: none; display: block; height: 2em;
 left: -1px; line-height: 2; padding: 0; position: absolute; text-indent: 10px; text-shadow: 0 1px 0 #fff; top: -12px; width: 100%;
--khtml-border-radius-topleft: 4px; -moz-border-radius-topleft: 4px; -webkit-border-top-left-radius: 4px; border-top-left-radius: 4px; 
+-khtml-border-radius-topleft: 4px; -moz-border-radius-topleft: 4px; -webkit-border-top-left-radius: 4px; border-top-left-radius: 4px;
 -khtml-border-radius-topright: 4px; -moz-border-radius-topright: 4px; -webkit-border-top-right-radius: 4px; border-top-right-radius: 4px; }
 
 fieldset.collapsed legend { -khtml-border-radius: 4px; -moz-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 4px; }
@@ -816,7 +821,7 @@ border-bottom-left-radius: 4px; border-bottom-right-radius: 4px; }
 
 .comment-form label { float: left; font-size: 0.929em; }
 
-.comment-form input, .comment-form .form-select { margin: 0; 
+.comment-form input, .comment-form .form-select { margin: 0;
 -khtml-border-radius: 4px; -moz-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 4px; }
 
 .comment-form .form-type-textarea label { float: none; }
@@ -877,19 +882,19 @@ button,
 input[type="submit"],
 input[type="reset"],
 input[type="button"] {
-/* IE10 */ 
+/* IE10 */
 background-image: -ms-linear-gradient(top, #FFFFFF 0%, #E3E3E3 100%);
-/* Mozilla Firefox */ 
+/* Mozilla Firefox */
 background-image: -moz-linear-gradient(top, #FFFFFF 0%, #E3E3E3 100%);
-/* Opera */ 
+/* Opera */
 background-image: -o-linear-gradient(top, #FFFFFF 0%, #E3E3E3 100%);
-/* Webkit (Safari/Chrome 10) */ 
+/* Webkit (Safari/Chrome 10) */
 background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #FFFFFF), color-stop(1, #E3E3E3));
-/* Webkit (Chrome 11+) */ 
+/* Webkit (Chrome 11+) */
 background-image: -webkit-linear-gradient(top, #FFFFFF 0%, #E3E3E3 100%);
-/* Proposed W3C Markup */ 
+/* Proposed W3C Markup */
 background-image: linear-gradient(top, #FFFFFF 0%, #E3E3E3 100%);
-/* IE6-9 */ 
+/* IE6-9 */
 filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFFFFF', endColorstr='#E3E3E3');
 
 border: 1px solid #dbdbdb;
@@ -901,19 +906,19 @@ button:hover,
 input[type="submit"]:hover,
 input[type="reset"]:hover,
 input[type="button"]:hover {
-/* IE10 */ 
+/* IE10 */
 background-image: -ms-linear-gradient(top, #DBDBDB 0%, #F2F2F2 100%);
-/* Mozilla Firefox */ 
+/* Mozilla Firefox */
 background-image: -moz-linear-gradient(top, #DBDBDB 0%, #F2F2F2 100%);
-/* Opera */ 
+/* Opera */
 background-image: -o-linear-gradient(top, #DBDBDB 0%, #F2F2F2 100%);
-/* Webkit (Safari/Chrome 10) */ 
+/* Webkit (Safari/Chrome 10) */
 background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #DBDBDB), color-stop(1, #F2F2F2));
-/* Webkit (Chrome 11+) */ 
+/* Webkit (Chrome 11+) */
 background-image: -webkit-linear-gradient(top, #DBDBDB 0%, #F2F2F2 100%);
-/* Proposed W3C Markup */ 
+/* Proposed W3C Markup */
 background-image: linear-gradient(top, #DBDBDB 0%, #F2F2F2 100%);
-/* IE6-9 */ 
+/* IE6-9 */
 filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#DBDBDB', endColorstr='#F2F2F2');
 
 -moz-border-radius: 6px; -webkit-border-radius: 6px; -o-border-radius: 6px; -ms-border-radius: 6px; -khtml-border-radius: 6px; border-radius: 6px;
@@ -926,7 +931,7 @@ cursor: pointer; }
 button.full-width,
 input[type="submit"].full-width,
 input[type="reset"].full-width,
-input[type="button"].full-width { 
+input[type="button"].full-width {
 width: 100%; padding-left: 0 !important; padding-right: 0 !important; text-align: center; }
 
 
@@ -1035,7 +1040,7 @@ ol.search-results { padding-left: 0; }
 }
 
 /*-------------------------------------------*
-/* Menus and item lists 
+/* Menus and item lists
 /*-------------------------------------------*/
 .item-list ul {
   margin: 0;
@@ -1288,7 +1293,7 @@ border-left: 1px solid; border-right: 1px solid; height: 40px; margin-left: -36p
   height: 35px;
 }
 
-#forum .name a{ 
+#forum .name a{
   font-size: 16px;
 }
 
