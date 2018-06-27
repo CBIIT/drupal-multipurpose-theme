@@ -6,9 +6,6 @@
 <?php print $head; ?>
 <title><?php print $head_title; ?></title>
 <?php print $styles; ?>
-<link href="/sites/nci-itcr/themes/multipurpose/carousel/owl.carousel.css" rel="stylesheet">
-<link href="/sites/nci-itcr/themes/multipurpose/carousel/owl.theme.css" rel="stylesheet">
-<link href="/sites/nci-itcr/themes/multipurpose/carousel/owl.transitions.css" rel="stylesheet">
 <?php print $scripts; ?>
 <!--[if lt IE 9]><script src="<?php print base_path() . drupal_get_path('theme', 'multipurpose') . '/js/html5.js'; ?>"></script><![endif]-->
 </head>
