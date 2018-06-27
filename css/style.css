@@ -188,9 +188,9 @@ a.external-link.ext.extlink, a.ext.extlink {
 .region-footer .block-menu { display:block; width:100%; float:none;}
 .region-footer ul.menu { margin: 0; padding: 0 0 0.5em; list-style-type: none; text-align: center; }
 .region-footer ul.menu li {display: inline;}
-.region-footer ul.menu li a {text-decoration: none; padding: 0 5px; color: #737373; font-size: 12px;}
+.region-footer ul.menu li a {text-decoration: none; padding: 0 5px; color: #6B6B6B; font-size: 12px;}
 .region-footer ul.menu li a:hover {color: #0e3a55; }
-.region-footer .block-block div {text-align: center; padding-top: 0.5em; font-size: 12px; color: #737373;}
+.region-footer .block-block div {text-align: center; padding-top: 0.5em; font-size: 12px; color: #6B6B6B;}
 
 #corner {
     border-radius: 5px;
@@ -411,8 +411,8 @@ table {
 th {
   font-weight: bold;
   padding:10px 10px;
-  background:#555;
-  color:#fff;
+  background:#fff;
+  border: 1px solid #d7d7d7;
 }
 
 tr{
