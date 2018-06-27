@@ -132,7 +132,7 @@
   <div id="sidr-close"><a href="#sidr-close" class="toggle-sidr-close"></a></div>
   <div id="site-navigation-wrap">
     <a href="#sidr-main" id="navigation-toggle"><span class="fa fa-bars"></span>Menu</a>
-    <nav id="site-navigation" class="navigation main-navigation clr" role="navigation">
+    <nav id="site-navigation" class="navigation main-navigation clr">
       <div id="main-menu" class="menu-main-container">
         <?php 
           $main_menu_tree = menu_tree(variable_get('menu_main_links_source', 'main-menu'));
@@ -141,7 +141,7 @@
       </div>
     </nav>
   </div>
-  <a id="main-content" name="main-content"></a>
+  <a id="main-content"></a>
   
   <?php if ($is_front): ?>
   <?php if (theme_get_setting('slideshow_display','multipurpose')): ?>
