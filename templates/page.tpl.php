@@ -199,7 +199,9 @@
         <?php if ($page['content_top']): ?><div id="content_top"><?php print render($page['content_top']); ?></div><?php endif; ?>
         <div id="content-wrap">
           <?php print render($title_prefix); ?>
-          <?php if ($title): ?><h1 class="page-title"><?php print $title; ?></h1><?php endif; ?>
+          <?php 
+          $node = node_load(arg(1));
+          if ($title && $node->type !='person'): ?><h1 class="page-title"><?php print $title; ?></h1><?php endif; ?>
           <?php print render($title_suffix); ?>
           <?php if (!empty($tabs['#primary'])): ?><div class="tabs-wrapper clr"><?php print render($tabs); ?></div><?php endif; ?>
           <?php print render($page['help']); ?>
