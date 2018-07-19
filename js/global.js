@@ -12,10 +12,6 @@ jQuery( function($) {
 			disableHI: true
 		});
 
-    $('#responsiveTabs').responsiveTabs({
-            startCollapsed: 'accordion'
-        });
-
 		// Mobile Menu
 		$('#navigation-toggle').sidr({
 			name: 'sidr-main',
@@ -97,6 +93,13 @@ jQuery( function($) {
               return false;
               }
             );		
+
+		$length = $(".pates-tabs__item").size()
+            if($length > 1) {
+              $('#responsiveTabs').responsiveTabs({
+                  startCollapsed: 'accordion'
+              });
+            }
 
 	}); // End doc ready
 
