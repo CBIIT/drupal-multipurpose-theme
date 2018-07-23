@@ -85,7 +85,7 @@ global $base_url;
 $url = $base_url . '/' . path_to_theme();
 ?>
 <link rel="stylesheet" type="text/css" href="<?php echo $url;?>/css/person-tabs.css">
-<div class="person_left_col"><div class="person-menu-block"><?php 
+<div class="person_left_col"><div class="person-menu-block"><?php
 $block = module_invoke('menu_block', 'block_view', '4');
 ?>
 <h4 class="pane-title"><?php print render($block['subject']);?></h4>
@@ -95,8 +95,8 @@ $block = module_invoke('menu_block', 'block_view', '4');
     <div class="panel-pane pane-page-breadcrumb person-breadcrumbs">
       <div class="pane-content">
        <nav class="breadcrumb">
-        <a href="/">Home</a> » 
-        <a href="/about/about-cbiit">About</a> » 
+        <a href="/">Home</a> »
+        <a href="/about/about-cbiit">About</a> »
         <a href="/about/federal-staff-directory">Federal Staff Directory</a> »
         <?php echo $node->title;?>
         </nav>
@@ -169,36 +169,36 @@ $block = module_invoke('menu_block', 'block_view', '4');
                     $publications = $node->field_person_publications['und'][0]['value'];
                 ?>
                 <?php
-                    if(isset($body) && (isset($projects) || isset($publications))) { ?>
+                    if($body && (isset($projects) || isset($publications))) { ?>
                     <li class="pates-tabs__item"><a class="pates-tabs__link" id="label_short_bio" href="#person-bio">Short Bio</a></li>
-                <?php } elseif (isset($body) && !(isset($projects) && isset($publications))) {?>
+                <?php } elseif ($body && !(isset($projects) && isset($publications))) {?>
                     <h2>Short Bio</h2>
                 <?php } ?>
                 <?php
-                    if(isset($projects) && (isset($body) || isset($publications))) { ?>
+                    if(isset($projects) && ($body || isset($publications))) { ?>
                     <li class="pates-tabs__item"><a href="#person-projects" id="label_projects" class="pates-tabs__link">Projects</a></li>
-                <?php } elseif (isset($projects) && !(isset($body) && isset($publications))) {?>
+                <?php } elseif (isset($projects) && !($body && isset($publications))) {?>
                     <h2>Projects</h2>
                 <?php } ?>
                 <?php
-                    if(isset($publications) && (isset($projects) || isset($body))) { ?>
+                    if(isset($publications) && (isset($projects) || $body)) { ?>
                     <li class="pates-tabs__item"><a href="#person-publications" id="label_publications" class="pates-tabs__link">Publications</a></li>
-                <?php }  elseif (isset($publications) && !(isset($projects) && isset($body))) {?>
+                <?php }  elseif (isset($publications) && !(isset($projects) && $body)) {?>
                     <h2>Publications</h2>
                 <?php } ?>
             </ul>
             <?php
-            if(isset($body) && (isset($projects) || isset($publications))) { ?>
+            if($body && (isset($projects) || isset($publications))) { ?>
                 <div id="person-bio" class="pates-tabs__tabcontent">
                     <?php print $node->body['en'][0]['value'] ?>
                 </div>
-            <?php } elseif (isset($body) && !(isset($projects) && isset($publications))) { ?>
+            <?php } elseif ($body && !(isset($projects) && isset($publications))) { ?>
                 <div class="person-bio">
                     <p><?php print $node->body['en'][0]['value'] ?></p>
-                </div>        
+                </div>
             <?php } ?>
             <?php
-            if(isset($projects) && (isset($body) || isset($publications))) { ?>
+            if(isset($projects) && ($body || isset($publications))) { ?>
                 <div id="person-projects" class="pates-tabs__tabcontent">
                     <p>Projects you run or work on at CBIIT</p>
                     <ul class="person-projects">
@@ -213,12 +213,12 @@ $block = module_invoke('menu_block', 'block_view', '4');
                     <?php } ?>
                     </ul>
                 </div>
-            <?php } elseif (isset($projects) && !(isset($body) && isset($publications))) { ?>
+            <?php } elseif (isset($projects) && !($body && isset($publications))) { ?>
                 <div>
                     <p>Projects you run or work on at CBIIT</p>
                     <ul class="person-projects">
                     <?php
-                        foreach ($node->field_person_projects['und'] as $per_proj) { 
+                        foreach ($node->field_person_projects['und'] as $per_proj) {
                             $project_url = $per_proj['entity']->field_project_url['und']['0']['url'];
                             if(isset($project_url)) { ?>
                             <li><a href="<?php echo($project_url); ?>"><?php echo $per_proj['entity']->name ?></a></li>
@@ -227,17 +227,17 @@ $block = module_invoke('menu_block', 'block_view', '4');
                         <?php } ?>
                     <?php } ?>
                     </ul>
-                </div>       
+                </div>
             <?php } ?>
             <?php
-            if(isset($publications) && (isset($projects) || isset($body))) { ?>
+            if(isset($publications) && (isset($projects) || $body)) { ?>
             <div id="person-publications" class="pates-tabs__tabcontent">
                 <?php print $node->field_person_publications['und'][0]['value'] ?>
             </div>
-            <?php } elseif (isset($publications) && !(isset($projects) && isset($body))) { ?>
+            <?php } elseif (isset($publications) && !(isset($projects) && $body)) { ?>
                 <div class="person-publications">
                     <p><?php print $node->field_person_publications['und'][0]['value'] ?></p>
-                </div>        
+                </div>
             <?php } ?>
         </div>
     </div>
