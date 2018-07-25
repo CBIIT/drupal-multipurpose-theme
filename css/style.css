@@ -1608,3 +1608,11 @@ ul.person-social li i {
 .person-projects p {
   margin-bottom: 0;
 }
+
+.view.view-federal-staff-directory tbody td.views-field {
+  background-color: #FFFFFF;
+}
+
+.view.view-federal-staff-directory tbody td {
+  padding: 10px 10px 5px 5px;
+}
