@@ -1616,3 +1616,7 @@ ul.person-social li i {
 .view.view-federal-staff-directory tbody td {
   padding: 10px 10px 5px 5px;
 }
+
+.view.view-federal-staff-directory .span_3_of_4 {
+  width: 84%;
+}
