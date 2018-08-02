@@ -200,7 +200,6 @@ $block = module_invoke('menu_block', 'block_view', '4');
             <?php
             if(isset($projects) && ($body || isset($publications))) { ?>
                 <div id="person-projects" class="pates-tabs__tabcontent">
-                    <p>Projects you run or work on at CBIIT</p>
                     <ul class="person-projects">
                     <?php
                         foreach ($node->field_person_projects['und'] as $per_proj) {
@@ -215,7 +214,6 @@ $block = module_invoke('menu_block', 'block_view', '4');
                 </div>
             <?php } elseif (isset($projects) && !($body && isset($publications))) { ?>
                 <div>
-                    <p>Projects you run or work on at CBIIT</p>
                     <ul class="person-projects">
                     <?php
                         foreach ($node->field_person_projects['und'] as $per_proj) {
