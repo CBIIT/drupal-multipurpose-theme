@@ -164,7 +164,7 @@ $block = module_invoke('menu_block', 'block_view', '4');
         <div id="responsiveTabs" class="col span_4_of_4">
             <ul class="pates-tabs__list">
                 <?php
-                    $body = $node->body['en'][0]['value'];
+                    $body = $node->body['und'][0]['value'];
                     $projects = $node->field_person_projects['und'][0]['entity']->name;
                     $publications = $node->field_person_publications['und'][0]['value'];
                 ?>
@@ -190,11 +190,11 @@ $block = module_invoke('menu_block', 'block_view', '4');
             <?php
             if($body && (isset($projects) || isset($publications))) { ?>
                 <div id="person-bio" class="pates-tabs__tabcontent">
-                    <?php print $node->body['en'][0]['value'] ?>
+                    <?php print $node->body['und'][0]['value'] ?>
                 </div>
             <?php } elseif ($body && !(isset($projects) && isset($publications))) { ?>
                 <div class="person-bio">
-                    <p><?php print $node->body['en'][0]['value'] ?></p>
+                    <p><?php print $node->body['und'][0]['value'] ?></p>
                 </div>
             <?php } ?>
             <?php
