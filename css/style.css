@@ -1578,6 +1578,7 @@ ul.person-social li i {
 
 #views-exposed-form-federal-staff-directory-page .views-exposed-form .form-item {
   float: left;
+  width: 90%;
 }
 
 .btn-default::before {
@@ -1619,4 +1620,46 @@ ul.person-social li i {
 
 .view.view-federal-staff-directory .span_3_of_4 {
   width: 84%;
+}
+
+.view.view-federal-staff-directory .span_1_of_4 {
+  width: 16%;
+}
+
+.panel-panel.unit.header-left.firstUnit,
+.panel-panel.unit.header-middle,
+.panel-panel.header-right.lastUnit {
+  display: none;
+}
+
+#views-exposed-form-federal-staff-directory-page .views-exposed-form .views-exposed-widget.views-widget-filter-field_person_organization_target_id_entityreference_filter {
+  padding: 0.5em 1em 0 0;
+  width: 30%;
+}
+
+#views-exposed-form-federal-staff-directory-page .views-exposed-form .views-exposed-widget.views-widget-filter-field_person_full_name {
+  padding: 0.5em 1em 0 0;
+  width: 64%;
+}
+
+#views-exposed-form-federal-staff-directory-page .selectize-input {
+  border-radius: 25px;
+}
+
+@media screen and (max-width: 767px) {
+  #views-exposed-form-federal-staff-directory-page .views-exposed-form .views-exposed-widget {
+    padding: 0.5em 1em 0 0;
+    width: 100%;
+  }
+}
+
+#views-exposed-form-federal-staff-directory-page .form-type-selectize .selectize-control.multi .selectize-input [data-value] {
+  width: 58px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.selectize-input {
+  padding: 5px 3px;
 }
