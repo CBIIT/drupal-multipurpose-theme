@@ -125,11 +125,16 @@ $block = module_invoke('menu_block', 'block_view', '4');
                 </div>
             <?php } ?>
             <?php
-            if(isset($node->field_person_organization['und'][0]['entity']->name)) { ?>
-                <div class="person-org">
-                    <p><b><?php print $node->field_person_organization['und'][0]['entity']->name; ?></b></p>
-                </div>
-            <?php } ?>
+            if(isset($node->field_person_organization['und'][0]['entity']->name)) {
+              if(isset($node->field_person_organization['und']['0']['entity']->field_organization_url['und']['0']['url'])) {?>
+              <div class="person-org">
+                <p><a href="<?php print $node->field_person_organization['und']['0']['entity']->field_organization_url['und']['0']['url']; ?>"><?php print $node->field_person_organization['und'][0]['entity']->name; ?></a></p>
+              </div>
+            <?php } else { ?>
+              <div class="person-org">
+                <p><b><?php print $node->field_person_organization['und'][0]['entity']->name; ?></b></p>
+              </div>
+            <?php }} ?>
             <?php
             if(isset($node->field_person_email['und'][0]['email'])) { ?>
                 <div class="person-email">
