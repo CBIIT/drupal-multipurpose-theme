@@ -126,7 +126,7 @@ $block = module_invoke('menu_block', 'block_view', '4');
             <?php } ?>
             <?php
             if(isset($node->field_person_organization['und'][0]['entity']->name)) {
-              if(isset($node->field_person_organization['und'][0]['entity']->name)) {?>
+              if(isset($node->field_person_organization['und']['0']['entity']->field_organization_url['und']['0']['url'])) {?>
               <div class="person-org">
                 <p><a href="<?php print $node->field_person_organization['und']['0']['entity']->field_organization_url['und']['0']['url']; ?>"><?php print $node->field_person_organization['und'][0]['entity']->name; ?></a></p>
               </div>
