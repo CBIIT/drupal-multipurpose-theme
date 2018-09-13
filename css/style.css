@@ -1664,9 +1664,13 @@ ul.person-social li i {
   padding: 5px 3px;
 }
 
-@media screen and (min-width: 720px) {
-  .views-exposed-widgets {
+.view-federal-staff-directory .views-exposed-widgets {
       margin-bottom: .5em;
-      width: 700px;
+      width: 700px!important;
+      /*background-color:red;*/
   }
+
+#edit-field-person-organization-target-id-entityreference-filter {
+
+    height: 30px;
 }
