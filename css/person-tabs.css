@@ -32,3 +32,14 @@
         display: block;
     }
 }
+
+.r-tabs .r-tabs-nav .r-tabs-state-active .r-tabs-anchor {
+    /*color: #0d95a1;*/
+    color: #636363!important;
+    text-decoration: none !important;
+}
+
+r-tabs .r-tabs-nav .r-tabs-state-active .r-tabs-anchor {
+    color: #0d95a1;
+    text-decoration: none !important;
+}
