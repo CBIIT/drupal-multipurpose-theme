@@ -1361,15 +1361,14 @@ border-left: 1px solid; border-right: 1px solid; height: 40px; margin-left: -36p
   margin-bottom: 5px;
 }
 
+
 /* Tab anchor */
 .r-tabs .r-tabs-nav .r-tabs-anchor {
     display: inline-block;
     padding: 10px 2px;
     text-decoration: underline !important;
     font-size: 18px;
-    color:#003366;
-
-
+    color:#0d95a1;
 }
 
 
@@ -1381,7 +1380,7 @@ border-left: 1px solid; border-right: 1px solid; height: 40px; margin-left: -36p
 
 /* Active state tab anchor */
 .r-tabs .r-tabs-nav .r-tabs-state-active .r-tabs-anchor {
-    color: #003366;
+    color: #0d95a1;
     /*text-decoration: underline !important;*/
     text-decoration: none !important;
 
