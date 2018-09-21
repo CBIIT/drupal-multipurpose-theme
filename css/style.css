@@ -1368,7 +1368,8 @@ border-left: 1px solid; border-right: 1px solid; height: 40px; margin-left: -36p
     padding: 10px 2px;
     text-decoration: underline !important;
     font-size: 18px;
-    color:#0c5c97;
+    /*correct _inactive_ tab style*/
+    color:#0d95a1;
 }
 
 
@@ -1673,10 +1674,24 @@ ul.person-social li i {
 .view-federal-staff-directory .views-exposed-widgets {
       margin-bottom: .5em;
       width: 700px!important;
-      /*background-color:red;*/
   }
 
 #edit-field-person-organization-target-id-entityreference-filter {
 
     height: 30px;
+}
+
+/*to prevent the search ico from colliding with field*/
+@media screen and (max-width: 767px) {
+ #views-exposed-form-federal-staff-directory-page .views-exposed-form .views-exposed-widget.views-widget-filter-field_person_organization_target_id_entityreference_filter {
+    width: 100%;
+    float: left;
+    clear: both;
+  }
+}
+/*style the default person icon responsively*/
+.view-federal-staff-directory .views-field-nothing div.col {
+padding-right: 10px;
+max-width: 15%;
+width: 100%;
 }
