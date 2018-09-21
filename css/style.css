@@ -1368,10 +1368,8 @@ border-left: 1px solid; border-right: 1px solid; height: 40px; margin-left: -36p
     padding: 10px 2px;
     text-decoration: underline !important;
     font-size: 18px;
-    /*correct _inactive_ tab style*/
-    color:#0d95a1;
+    color:#0c5c97;
 }
-
 
 /* Disabled tab */
 .r-tabs .r-tabs-nav .r-tabs-state-disabled {
@@ -1384,7 +1382,7 @@ border-left: 1px solid; border-right: 1px solid; height: 40px; margin-left: -36p
     color: #0d95a1;
     /*text-decoration: underline !important;*/
     text-decoration: none !important;
-
+    font-weight:bold;
 }
 
 /* Tab panel */
@@ -1691,7 +1689,12 @@ ul.person-social li i {
 }
 /*style the default person icon responsively*/
 .view-federal-staff-directory .views-field-nothing div.col {
-padding-right: 10px;
-max-width: 15%;
-width: 100%;
+  padding-right: 10px;
+  max-width: 15%;
+  width: 100%;
+}
+
+.view-federal-staff-directory .views-field-nothing div.col > img {
+  width:100% !important;
+  height:auto!important;
 }
