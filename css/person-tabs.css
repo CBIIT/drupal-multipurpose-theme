@@ -34,8 +34,9 @@
 }
 
 .r-tabs .r-tabs-nav .r-tabs-state-active .r-tabs-anchor {
-    color: #0d95a1;
+    color: #030202;
     text-decoration: none !important;
+    font-weight:bold;
 }
 
 r-tabs .r-tabs-nav .r-tabs-state-active .r-tabs-anchor {
